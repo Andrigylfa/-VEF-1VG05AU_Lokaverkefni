@@ -1,0 +1,18 @@
+body{	
+	background-image: url("dota_background.jpg");
+	background-size: 100%;
+}
+.header{
+	color: #b30000;
+	font-size: 5em;
+	text-align: center;
+}
+.wrapper_main{
+	background: blue;
+	border: solid red;
+	display: grid;
+	grid-template-rows: ;
+	grid-template-columns: ;
+	grid-template-areas:
+
+}
