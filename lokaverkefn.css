@@ -1,18 +1,74 @@
 body{	
-	background-image: url("dota_background.jpg");
+	background-color: #6b6b47;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 	background-size: 100%;
 }
+.wrapper_header{
+	display: grid;
+	grid-template-rows:auto 90% 10%;
+	grid-template-columns:30% 40% 30%;
+	grid-template-areas:
+	"hr hr hr"
+	"k1 k3 k2"
+}
 .header{
-	color: #b30000;
-	font-size: 5em;
+	grid-area: hr;
+	color: #cc0000;
+	font-size: 4em;
 	text-align: center;
 }
-.wrapper_main{
-	background: blue;
-	border: solid red;
-	display: grid;
-	grid-template-rows: ;
-	grid-template-columns: ;
-	grid-template-areas:
+.klasi1{
+	grid-area: k1;
+	color: #cc0000;
+	text-align: center;
+}
+.klasi2{
+	grid-area: k2;
+	color:#cc0000;
+	text-align: center;
+}
 
+
+.wrapper_main{
+	display: grid;
+	grid-template-columns:35% 30% 35%;
+	grid-template-rows: auto 0;
+	grid-template-areas:
+	"sl m1 sr"
+
+}
+.side_left{
+	grid-area: sl;
+	color:#cc0000;
+	padding: 2em;
+	line-height: 22px;
+}
+.side_right{
+	grid-area: sr;
+	color:#cc0000;
+	padding: 2em;
+	line-height: 22px;
+}
+.titil{
+	color: #cc0000;
+	text-align: center;
+}
+.wrapper_myndir{
+	padding: 4em;
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-rows: auto 0;
+}
+.footer{
+	padding: 3em;
+	background-color: #336600;
+	color: black;
+	text-align: center;
+	color: #800000;
+}
+.wrapper_video{
+	display: grid;
+	grid-template-columns:20% 60% 20%;
+	grid-template-rows: auto 0;
 }
